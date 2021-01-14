@@ -16,11 +16,9 @@ html {
 .banner {
   padding-top: 30px;
   height: 100vh;
-
+clip-path: ellipse(90% 100% at 50% 0); 
   background-color: RGB(254, 239, 174);
   width: 100%;
-
-  /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 75%); */
 }
 
 .banner #mynavigation {
